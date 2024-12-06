@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторна 10</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="overlay">
+      <div>
+        <h1>Казино</h1>
+        <input id="username" type="text" placeholder="Введіть ім'я" />
+        <button class="button start-btn" id="start-btn">Почати</button>
+      </div>
+    </div>
+
+    <div class="game-container">
+      <h2>Вітаємо, <span id="username-display"></span>!</h2>
+      <div class="slots">
+        <div class="slot" id="slot1"></div>
+        <div class="slot" id="slot2"></div>
+        <div class="slot" id="slot3"></div>
+      </div>
+      <button class="button lever-btn" id="lever-btn">Запустити</button>
+      <button class="button restart-btn" id="restart-btn">Почати знову</button>
+      <div id="result-message"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
